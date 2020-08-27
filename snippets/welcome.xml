@@ -5,7 +5,8 @@
 	<remote name="welcome"
 			fetch="https://github.com/WelcomeOS" />
 
-    <!-- Removing useless LineageOS stuff -->
+	<!-- Removing useless LineageOS stuff -->
+	<remove-project path="android" name="LineageOS/android" />
 	<remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
 	<remove-project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
 	<remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
@@ -21,6 +22,7 @@
 	<remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
 	<!-- WelcomeOS -->
+	<project path="android" name="android" revision="nine" remote="welcome" />
 	<project path="vendor/lineage" name="android_vendor_lineage" revision="nine" remote="welcome" />
 
 </manifest>
