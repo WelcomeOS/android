@@ -16,6 +16,7 @@
 	<remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
 	<remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
 	<remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+	<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
 	<remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
 	<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
 	<remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
@@ -23,6 +24,7 @@
 
 	<!-- WelcomeOS -->
 	<project path="android" name="android" revision="nine" remote="welcome" />
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" revision="nine" remote="welcome" />
 	<project path="vendor/lineage" name="android_vendor_lineage" revision="nine" remote="welcome" />
 
 </manifest>
