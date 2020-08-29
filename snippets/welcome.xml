@@ -7,6 +7,7 @@
 
 	<!-- Removing useless LineageOS stuff -->
 	<remove-project path="android" name="LineageOS/android" />
+	<remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
 	<remove-project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
 	<remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
 	<remove-project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
