@@ -20,7 +20,6 @@
 	<remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 	<remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
 	<remove-project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-	<remove-project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
 	<remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
 	<remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
 	<remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
