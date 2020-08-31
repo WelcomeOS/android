@@ -30,6 +30,7 @@
 	<project path="android" name="android" revision="nine" remote="welcome" />
 	<project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" revision="nine" remote="welcome" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" revision="nine" remote="welcome" />
+	<project path="packages/apps/RedPacketSnatcher" name="android_packages_apps_RedPacketSnatcher" groups="pdk-fs" revision="master" remote="welcome" />
 	<project path="vendor/lineage" name="android_vendor_lineage" revision="nine" remote="welcome" />
 
 </manifest>
